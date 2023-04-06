@@ -46,13 +46,13 @@
               'GCC_VERSION': 'com.apple.compilers.llvm.clang.1_0'
             },
         }],
-        ['OS=="linux"', {
-            'dependencies':
-            [
-              'angle/src/angle.gyp:libEGL',
-              'angle/src/angle.gyp:libGLESv2'
-            ]
-        }],
+#         ['OS=="linux"', {
+#             'dependencies':
+#             [
+#               'angle/src/angle.gyp:libEGL',
+#               'angle/src/angle.gyp:libGLESv2'
+#             ]
+#         }],
         ['OS=="win"', {
             'library_dirs': [
               '<(module_root_dir)/deps/windows/lib/<(target_arch)',
